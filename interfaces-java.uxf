@@ -1,0 +1,27 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>15</zoom_level><element><id>UMLClass</id><coordinates><x>120</x><y>225</y><w>210</w><h>135</h></coordinates><panel_attributes>Ave
+-
+-
++ ponerHuevos(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>795</x><y>225</y><w>225</w><h>135</h></coordinates><panel_attributes>Dispositivo
+-
+-
++ encender(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>135</x><y>480</y><w>270</w><h>105</h></coordinates><panel_attributes>PalomaMensajera
+--
+--
++ volarRapido(): void
++ enviarMensaje(String): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>705</x><y>480</y><w>270</w><h>105</h></coordinates><panel_attributes>TelefonoMovil
+--
+--
++ encender(): void
++ enviarMensaje(String): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>195</x><y>345</y><w>135</w><h>165</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;70;90</additional_attributes></element><element><id>Relation</id><coordinates><x>825</x><y>345</y><w>150</w><h>165</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>80;10;10;90</additional_attributes></element><element><id>UMLClass</id><coordinates><x>435</x><y>45</y><w>255</w><h>105</h></coordinates><panel_attributes>PartidoDelBuenCodigo
+-
+-
++ hacerCampania(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>300</y><w>285</w><h>105</h></coordinates><panel_attributes>&lt;&lt;interface&gt;&gt;
+/EnviadorDeMensaje/
+-
+-
+/+ enviarMensaje(String): void/</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>630</x><y>390</y><w>165</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;90;60</additional_attributes></element><element><id>Relation</id><coordinates><x>345</x><y>390</y><w>180</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>100;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>135</y><w>150</w><h>195</h></coordinates><panel_attributes>lt=&lt;-
+m1=*
+- mensajeros</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>585</y><w>270</w><h>105</h></coordinates><panel_attributes>Persona
+--
+--
++ enviarMensaje(String): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>555</x><y>390</y><w>45</w><h>225</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;130</additional_attributes></element></diagram>
