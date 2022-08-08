@@ -1,4 +1,4 @@
-package interfaces;
+package ar.charlycimino.ejemplos.interfaces;
 
 import java.util.ArrayList;
 
